@@ -118,5 +118,29 @@
         "logoUrl": "https://firebasestorage.googleapis.com/v0/b/la-radio-rd.appspot.com/o/mega%20106.9.jpg?alt=media&token=3f03ea71-4ad5-4030-bf07-11e2add4f93e",
         "frequency": "106.9",
         "ciudad": "Puerto Rico"
+    },
+    {
+        "id": 15,
+        "name": "La Nueva 94",
+        "url": "http://65.19.131.179/sbsystems-wodafmaac-ib-64",
+        "logoUrl": "https://firebasestorage.googleapis.com/v0/b/la-radio-rd.appspot.com/o/la%20nueva%2094.png?alt=media&token=eeebc9fb-b761-494d-bd11-a7ed715712a8",
+        "frequency": "94",
+        "ciudad": "Puerto Rico"
+    },
+    {
+        "id": 16,
+        "name": "KQ 105",
+        "url": "http://3.84.85.112/univision-wkaqfmaac-ibc1",
+        "logoUrl": "https://firebasestorage.googleapis.com/v0/b/la-radio-rd.appspot.com/o/kq.jpg?alt=media&token=119fe4d1-2dc3-4bfa-a545-7b310648fcc9",
+        "frequency": "105",
+        "ciudad": "Puerto Rico"
+    },
+    {
+        "id": 17,
+        "name": "SalSoul",
+        "url": "http://68.235.35.243:8001/stream/1/",
+        "logoUrl": "https://firebasestorage.googleapis.com/v0/b/la-radio-rd.appspot.com/o/salsoul.jpg?alt=media&token=424bad20-dba5-44c5-ba65-68e0686e431a",
+        "frequency": "106.9",
+        "ciudad": "Puerto Rico"
     }
 ]

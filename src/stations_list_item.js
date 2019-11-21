@@ -32,20 +32,15 @@ const StationsListItem = ({
               if (counter === 4) {
                 // Display an interstitial
                 AdMobInterstitial.setAdUnitID(
-                  'ca-app-pub-3940256099942544/1033173712',
+                  'ca-app-pub-6174585484194945/1170909428',
                 );
                 //AdMobInterstitial.setTestDevices([AdMobInterstitial.simulatorId]);
                 AdMobInterstitial.requestAd().then(() => {
                   AdMobInterstitial.showAd();
-                  AdMobInterstitial.addEventListener('adClosed', () => {
-                    selectStation(item);
-                    playStation(item.id);
-                  });
                 });
-              } else {
-                selectStation(item);
-                playStation(item.id);
               }
+              selectStation(item);
+              playStation(item.id);
             }}>
             <Card style={styles.card} elevation={4}>
               <Image source={{uri: item.logoUrl}} style={styles.imageStyle} />
